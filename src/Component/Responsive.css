@@ -1,0 +1,63 @@
+@media (max-width: 767.98px){
+ 
+    .hero-sec .hero-left img {
+        display: none;
+
+    }
+
+    .hero-content .exc{
+        font-size: 35px;
+    }
+
+    .hero-title{
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .brand img{
+      width: 20%;
+    }
+
+    .hero-title{
+        margin-top: -55px;
+    }
+
+
+    .img-wrap {
+        margin-bottom: 20px;
+      }
+    
+      .col-md-6 {
+        width: 100%;
+      }
+    
+      .img-fluid {
+        max-width: 100%;
+      }
+    
+      .left-wrap {
+        padding: 10px;
+      }
+    
+      .exercise-name {
+        font-size: 20px;
+      }
+    
+      .instruction-title {
+        font-size: 16px;
+      }
+    
+      .box-title {
+        font-size: 16px;
+      }
+    
+      .box-text {
+        font-size: 14px;
+      }
+
+
+
+}

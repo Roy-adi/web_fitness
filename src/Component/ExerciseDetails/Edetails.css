@@ -1,0 +1,117 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .detail-sec {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  }
+  
+  .img-wrap img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-wrap {
+    padding: 20px;
+  }
+  
+  .detail-content .exercise-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline
+  }
+
+  .box-title{
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  
+  .detail-content .instruction-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .detail-content .instruction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .detail-content .instruction-list li {
+    font-size: 16px;
+    line-height: 2.4;
+  }
+  
+  .others {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .exercise-box {
+    width: 30%;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .box-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box-image:hover {
+    transform: scale(1.2);
+  }
+  
+  .box-text {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .exercise-box:hover .box-text {
+    color: #3498db;
+  }
+
+ 
+  
