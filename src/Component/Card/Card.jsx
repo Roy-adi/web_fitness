@@ -42,7 +42,7 @@ const Card = () => {
     <>
       <div className='card-sec container'>
         <div className='row'>
-        <p className='seraching-tittle'>Searching Results</p>
+        <p className='seraching-tittle'>Searching Results :</p>
           {Array.isArray(Card) && // Check if Card is an array
             Card.map((item) => (
               <div className='col-md-4' key={item.id}>
